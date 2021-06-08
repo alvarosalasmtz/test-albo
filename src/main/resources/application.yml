@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test-albo
+marvel:
+  comic:
+    api:
+      url: http://gateway.marvel.com
+      paths:
+        comics: /v1/public/comics
+      keys:
+        private: 6b254aa16c15afa0344770b834a37d77f4db3b38
+        public: 7ed2f6e7700a12c599df84fff18dc33c
